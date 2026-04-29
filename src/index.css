@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+body {
+  margin: 0;
+}
+:root {
+  --cream: #fdf6f0;
+  --blush: #f2c4ce;
+  --rose: #e8a0b0;
+  --lilac: #d8b4fe;
+  --sage: #b5c9b7;
+  --gold: #e8c99a;
+  --text-dark: #3d2c35;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lora', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1A0812;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  color: #3D2C35;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
